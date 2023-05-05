@@ -1,0 +1,21 @@
+@mixin flex($direction, $wrap, $justify, $align){
+    display: flex;
+    flex-direction: none;
+    flex-wrap: none;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin img-cont2($justify, $align, $text){
+    justify-content: $justify;
+    align-items: $align;
+    text-align: $text;
+}
+@mixin grid($cols, $gap){
+    display: grid;
+    grid-template-columns: $cols;
+    grid-gap: $gap;
+    justify-content: none;
+    align-items: none;
+
+}
+    

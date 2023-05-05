@@ -1,0 +1,40 @@
+footer{
+    .instagram{
+        background-color: $background-principal;
+        text-align: center;
+        width: 100%;
+    }
+    .informacion-segura{
+        display: flex;
+        font-size: 0,5rem;
+        align-items: center;
+        margin-left: 100px;
+        font-size: 14px;
+        p{
+            margin-top: 35px;
+            margin-left: 30px;
+        }
+        img{
+            margin-top: 15px;
+        }
+        ul{
+            display: flex;
+        }
+    }
+    .contactos{
+        background-color: $background-principal;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding-top: 10px;
+        li{
+            list-style-type: none;
+            margin-left: 35px; 
+        }
+        a{
+            text-decoration: none;
+            color: $color-principal;
+        }
+    }
+}

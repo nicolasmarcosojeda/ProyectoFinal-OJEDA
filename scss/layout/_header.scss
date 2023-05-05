@@ -1,0 +1,36 @@
+header{
+    height: 100px;
+    background-color: $background-principal;
+    padding: 0 50px;
+    color: $color-principal;
+    @include flex(none,none,space-between,center);
+    .logo{
+        text-transform: uppercase;
+        font-weight: 200;
+    }
+    .menu a{
+        color: $color-principal;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 10px;
+        transition: 0.4s
+    }
+    .mostrar-menu,
+    .esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+    }
+    .mostrar-menu{
+        order: 1;
+    }
+    .menu a:hover,
+    .mostrar-menu:hover,
+    .esconder-menu:hover{
+    color: rgb(121, 121, 121);
+    }
+    #check{
+        display: none;
+    }
+}

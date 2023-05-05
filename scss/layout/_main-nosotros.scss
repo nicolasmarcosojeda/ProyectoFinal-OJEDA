@@ -1,0 +1,11 @@
+
+main{
+    .img-contenedora2{
+        padding: 50px 50px;
+        @include img-cont2(center,center,center);
+    }
+    .img-contenedora2 img{
+        height: 300px;
+    }
+    
+}
